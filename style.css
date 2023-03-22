@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 50px;
+}
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 500px;
+
+}
+.container {
+    height: 500px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 1.0);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.box-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color:white;
+    border: 5px solid rgb(248, 234, 234);
+
+}
+#img-1 {
+    background-image: url('../NETFLIX/d9ec1a32-e002-4952-85d4-e3922fbb7584.jpg');
+    background-size: cover;
+    
+}
